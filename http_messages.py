@@ -1,5 +1,4 @@
 import requests
-import json
 
 r = requests.get('https://www.google.com')
 request_object = r.request.headers
